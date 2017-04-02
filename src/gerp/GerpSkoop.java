@@ -15,7 +15,7 @@ public class GerpSkoop extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocumentSkoop.fxml"));
         
         Scene scene = new Scene(root);
         

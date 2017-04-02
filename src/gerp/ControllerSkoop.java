@@ -31,16 +31,15 @@ public class ControllerSkoop implements Initializable {
         System.out.println("You clicked me!");
         // label.setText("Hello World!");
         
-        /* deverá chamar este metódo em qualquer lugar do seu controller para que seu parceiro consiga
-         uma instancia do seu controler
-        */
-        getControllerExternInstance(this);
 
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+         /* deverá chamar este metódo em qualquer lugar do seu controller para que seu parceiro consiga
+         uma instancia do seu controler
+        */
+        getControllerExternInstance(this);
     }
 
     /*
